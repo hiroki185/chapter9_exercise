@@ -18,9 +18,9 @@ main{
 }
 
 .main-box{
-  width: 300px;
-  background-color: #EEEEEE;
-  padding: 10px;
+ width: 300px;
+ background-color: #EEEEEE;
+ padding: 10px;
   position: relative;
 }
 
@@ -46,7 +46,7 @@ main{
 }
 
 
-.main-box-text1{
+.main-box-text{
   margin: 15px 0px 5px 0px;
 }
 
@@ -61,4 +61,51 @@ main{
 footer{
   height: 50px;
   background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+
+
+main{
+  width: 90%;
+  display: block;
+
+}
+
+.main-box{
+ width: 100%;
+ margin-bottom: 20px;
+
+}
+
+.main-box:last-child {
+
+  margin-bottom: 0px;
+}
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+
+  main{
+  width: 90%;
+  display: block;
+
+}
+
+.main-box{
+ width: 100%;
+ margin-bottom: 20px;
+
+}
+
+.main-box:last-child {
+
+  margin-bottom: 0px;
+}
+
+
 }
